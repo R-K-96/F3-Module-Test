@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <title>F3 Module Test</title>
+</head>
+<body>
+    
+    <h1>MY Public IP ADDRESS:</h1>
+    <button id ="getData">Get Data</button>
+
+    <div id="main-container">
+        <div id="upper-container">
+            <div>
+                <p>Lat: <span id="lat"></span></p>
+                <p>Long: <span id="long"></span></p>
+            </div>
+            <div>
+                <p>City: <span id="city"></span></p>
+                <p>Region: <span id="region"></span></p>
+            </div>
+            
+            <div>
+                <p>Organization: <span id="organization">sdg</span></p>
+                <p>Hostname: <span id="hostname">dgfd</span></p>
+            </div>
+            
+        </div>
+        <div id="map">
+            
+        </div>  
+        
+        <div id="lower-container">
+            <strong>
+                Time Zone: <span id="timeZone"></span>
+            </strong>
+            <strong>
+                Date And Time: <span id="dnt"></span>
+            </strong>
+            <strong>
+                Pincode: <span id="pincode"></span>
+            </strong>
+            <strong>
+                Message: <span id="msg"></span>
+            </strong>
+        </div>
+
+        <div class="search">
+            <!-- <span class="material-icons">
+                search
+                </span> -->
+            <input type="text" placeholder="search" id="search">
+        </div>
+
+        <div id="dataContainer">
+            
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
+
